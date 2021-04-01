@@ -40,8 +40,8 @@ window.addEventListener('keyup', function (e) {
     }
     if (isTouching(avatar, coin)) {
         document.body.style.backgroundColor = "green";
-        alert('WINNER!');
         moveCoin();
+        alert('WINNER!');
     }
 });
 
